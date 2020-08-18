@@ -78,6 +78,32 @@
   background: linear-gradient(130deg, rgba(230,221,216,1) 0%, rgba(212,184,172,1) 50%, rgba(211,167,154,1) 100%);
 }
 
+h1 {
+  font-family: 'Monoton', cursive;
+}
+
+.neonlights-on {
+  color: #b96879;
+  text-shadow: 1px 1px 8px 0.7 #ae4252;
+}
+
+.neonlights-off {
+  color: #aa3e4e;
+  text-shadow: none;
+}
+
+.neonlights-loose {
+  -moz-transform: rotate(31deg) translate(0px, 10px);
+  -webkit-transform: rotate(31deg) translate(0px, 10px);
+  -o-transform: rotate(31deg) translate(0px, 10px);
+  -ms-transform: rotate(31deg) translate(0px, 10px);
+  transform: rotate(31deg) translate(0px, 10px);
+}
+
+.neonlights-broken {
+  color: #aa3e4e;
+  text-shadow: none;
+}
 
 /*
 $background-light: #e6ddd8;
