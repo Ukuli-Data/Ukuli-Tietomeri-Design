@@ -1,4 +1,12 @@
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml

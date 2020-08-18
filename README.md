@@ -1,2 +1,2 @@
-# Ukuli-Tietomeri-Design
-Generic CSS and graphics design for the project. 
+# Ukuli Tietomeri Design
+Pretty much just a playground for design and frontend stuff. CSS and JavaScript.
