@@ -1,29 +1,83 @@
-.jumbotron {
-  background: #230706;
-  color: #e6ddd8;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #c2727d;
-    border-color: #6b3239; }
-    .jumbotron .btn-primary:hover {
-      background: #e6ddd8; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid #e6ddd8; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+/*
+.navbar-inverse {
+  color: #e89793;
+  background-color: #210f0d;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #e89793;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #b53d3e;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #e89793;
+  background-color: #834820;
+}
+*/
+.neon-front {
+  color: #cf8a8d;
+}
+
+.neon-back {
+  background-color: #cf8a8d;
+}
+
+.red-front {
+  color: #c44c58;
+}
+
+.red-back {
+  background-color: #c44c58;
+}
+
+.red-front {
+  color: #3a211c;
+}
+
+.red-back {
+  background-color: #3a211c;
+}
+
+.green-front {
+  color: #363d36;
+}
+
+.green-back {
+  background-color: #363d36;
+}
+
+.light-front {
+  color: #d9c8c0;
+}
+
+.light-back {
+  background-color: #d9c8c0;
+}
+
+.darker-light-front {
+  color: #f6c19f;
+}
+
+.darker-light-back {
+  background-color: #f6c19f;
+}
+
+.darkest-light-front {
+  color: #eba897;
+}
+
+.darkest-light-back {
+  background-color: #eba897;
+}
+
+.bottom-radial-background {
+  background: rgb(230,221,216);
+  background: linear-gradient(130deg, rgba(230,221,216,1) 0%, rgba(212,184,172,1) 50%, rgba(211,167,154,1) 100%);
+}
+
 
 /*
 $background-light: #e6ddd8;
@@ -37,4 +91,64 @@ $highlight-light: #c2727d;
 $foreground-dark: #230706;
 $foreground-medium: #3b1603;
 $foreground-light: #8d491c;
+*/
+/*
+Green: #3b301c
+Red: #d2725c;
+
+Lite Brown: #2e211b;
+Middle Brown: #3d3028;
+Dark Brown: #563526;
+
+Pink: #ea967c;
+
+Vaalea: #f6d0ac;
+Tummempi: #ebad88;
+Tummin: #e6aa86
+*/
+
+/*
+Versio 2:
+Green: #403b1e;
+Red: #d06052;
+Pink: #ee9783;
+
+Light White: #f9d1ad;
+Medium White: #f7bf9e;
+Dark White: #dba082;
+
+Light Brown: #33201c;
+Medium Brown: #211715;
+Dark Brown: #14100f;
+*/
+
+/*
+Versio 3:
+Light White: #e4cbb7;
+Medium White: #ebbca2;
+Dark White: #cd977f;
+
+Light Brown: #b88f73;
+Medium Brown: #834820;
+Dark Brown: #210f0d;
+
+Green: #524c34;
+Red: #b53d3e;
+Pink: #e89793;
+
+Gradients: 
+background: rgb(194,133,140);
+background: radial-gradient(circle, rgba(194,133,140,1) 0%, rgba(204,184,185,1) 50%, rgba(206,195,191,1) 100%);
+background: rgb(253,231,210);
+background: linear-gradient(100deg, rgba(253,231,210,1) 0%, rgba(215,176,147,1) 50%, rgba(226,204,190,1) 100%);
+
+*/
+
+/*
+Gradients:
+background: rgb(250,215,183);
+background: radial-gradient(circle, rgba(250,215,183,1) 0%, rgba(248,209,176,1) 50%, rgba(241,171,145,1) 100%);
+background: rgb(240,217,201);
+background: linear-gradient(90deg, rgba(240,217,201,1) 0%, rgba(236,205,185,1) 50%, rgba(222,188,163,1) 100%);
+
 */
