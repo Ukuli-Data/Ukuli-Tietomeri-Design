@@ -8,10 +8,10 @@ jQuery( document ).ready(function() {
 
 function setNeonLights(onOrOff) {
     if(onOrOff) {
-        jQuery(".neonlights-off").addClass("neonlights-on");
-        jQuery(".neonlights-off").removeClass("neonlights-off");
+        jQuery("#tietomeri-otsikko").addClass("neonlights-on");
+        jQuery("#tietomeri-otsikko").removeClass("neonlights-off");
     } else {
-        jQuery(".neonlights-on").addClass("neonlights-off");
-        jQuery(".neonlights-on").removeClass("neonlights-on");
+        jQuery("#tietomeri-otsikko").addClass("neonlights-off");
+        jQuery("#tietomeri-otsikko").removeClass("neonlights-on");
     }
 }

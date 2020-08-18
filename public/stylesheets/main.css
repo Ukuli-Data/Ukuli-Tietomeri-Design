@@ -1,7 +1,11 @@
-/*
+body {
+  background: rgb(230,221,216);
+  background: linear-gradient(180deg, rgba(230,221,216,1) 0%, rgba(212,184,172,1) 50%, rgba(211,167,154,1) 100%);
+}
+
 .navbar-inverse {
   color: #e89793;
-  background-color: #210f0d;
+  background-color: #3b1603;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -14,9 +18,9 @@
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   color: #e89793;
-  background-color: #834820;
+  background-color: #3b1603;
 }
-*/
+
 .neon-front {
   color: #cf8a8d;
 }
@@ -78,18 +82,20 @@
   background: linear-gradient(130deg, rgba(230,221,216,1) 0%, rgba(212,184,172,1) 50%, rgba(211,167,154,1) 100%);
 }
 
-h1 {
+#tietomeri-otsikko {
   font-family: 'Monoton', cursive;
+  color: #b96879;
+  text-shadow: 1px 1px 8px 0.7 rgb(174, 66, 82);
 }
 
 .neonlights-on {
-  color: #b96879;
-  text-shadow: 1px 1px 8px 0.7 #ae4252;
+  color: #b96879 !important;
+  text-shadow: 1px 1px 8px 0.7 rgb(174, 66, 82) !important;
 }
 
 .neonlights-off {
-  color: #aa3e4e;
-  text-shadow: none;
+  color: #aa3e4e !important;
+  text-shadow: none !important;
 }
 
 .neonlights-loose {
@@ -103,6 +109,11 @@ h1 {
 .neonlights-broken {
   color: #aa3e4e;
   text-shadow: none;
+}
+
+.jumbotron  {
+  background-color: #e6ddd8;
+  color: #3b1603;
 }
 
 /*
